@@ -7,6 +7,7 @@ body {
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    display: block;
 }
 
 /* header section */
@@ -32,9 +33,11 @@ header {
     align-items: center;
     border-bottom: 1px solid black;
     padding-bottom: 12px;
-    width: 100%;
-    position: fixed;
     z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    
 }
 
 .navigation {
@@ -54,20 +57,25 @@ header {
 
 .main.container {
     display: flex;
-    margin-top: 100px;
+    padding-top: 75px;
+    justify-content: space-between;
+
 }
 
 .first.column {
     width: 630px;
     display: flex;
+    flex-direction: column;
 }
 
 .second.column {
     width: 300px;
     display: flex;
+    flex-direction: column;
 }
 
 .third.column {
     width: 240px;
     display: flex;
+    flex-direction: column;
 }
